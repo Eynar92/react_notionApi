@@ -1,4 +1,5 @@
-const { Client } = require("@notionhq/client")
+import { Client } from "@notionhq/client"
+// const { Client } = require("@notionhq/client")
 
 const { NOTION_KEY, NOTION_DB } = process.env
 
